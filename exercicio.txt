@@ -1,0 +1,24 @@
+Hierarquia de Veículos
+Vence 13 de agosto de 2024 às 19:00
+Instruções
+Objetivo: Implementar uma hierarquia de classes para veículos, demonstrando conceitos de herança, sobrescrita de métodos e uso de atributos de instância.
+
+Descrição do Exercício
+Classe Base: Veiculo
+
+Propriedades: marca, modelo, ano
+Métodos: acelerar(), frear()
+Classe Derivada: Carro
+
+Herda de: Veiculo
+Propriedades Adicionais: tipoDeCombustivel
+Métodos: acelerar() (sobrescreve o método da classe base para um comportamento específico de carros)
+Classe Derivada: CarroEletrico
+
+Herda de: Carro
+Propriedades Adicionais: capacidadeBateria
+Métodos: carregarBateria(), acelerar() (sobrescreve o método da classe base para um comportamento específico de carros elétricos)
+Classe Principal: Main
+
+ Faça as instâncias das classes e demonstrar o uso dos métodos para mostrar o comportamento dos diferentes tipos de veículos.
+Meu trabalho
